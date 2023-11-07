@@ -1,7 +1,7 @@
 "use strict";
 
 const data = JSON.parse(localStorage.getItem("data"));
-console.log("data4");
+console.log("data5");
 
 const prodCode = data.bookableItems[0].productOptionCode;
 const seasons = data.bookableItems[0].seasons;
